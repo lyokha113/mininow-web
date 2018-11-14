@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mininow.iml" filepath="$PROJECT_DIR$/mininow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mininow_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mininow_main.iml" group="mininow" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mininow_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mininow_test.iml" group="mininow" />
+    </modules>
+  </component>
+</project>
