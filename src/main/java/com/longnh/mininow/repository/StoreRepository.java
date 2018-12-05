@@ -9,5 +9,6 @@ import java.util.List;
 @Repository
 public interface StoreRepository extends CrudRepository<Store, Long> {
 
-    public List<Store> findTop10ByOrderByRegisterTimeDesc();
+    List<Store> findTop10ByOrderByRegisterTimeDesc();
+    List<Store> findByNameContains(String name);
 }

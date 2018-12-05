@@ -8,15 +8,14 @@ import java.util.Map;
 
 public interface ProductService {
 
-    public List<Product> getProducts();
+    List<Product> getProducts();
 
-    public Product getProductById(long id);
+    List<Product> getProductsOfStore(long id);
 
-    public Product saveProduct(Product product);
+    Product getProductById(long id);
 
-    public void deleteProduct(long id);
+    Product saveProduct(Product product);
 
-    public Map<String, String> getProductExtra(long id);
+    void deleteProduct(long id);
 
-    public boolean updateProductExtra(long id, String required, String optional);
 }

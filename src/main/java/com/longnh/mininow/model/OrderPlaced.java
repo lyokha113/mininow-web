@@ -47,9 +47,4 @@ public class OrderPlaced {
 
     @Column(name = "status", nullable = false)
     private int status;
-
-    @Column(name = "detail", nullable = false, columnDefinition = "text")
-    private String detail;
-
-
 }

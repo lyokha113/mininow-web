@@ -13,6 +13,9 @@ public class Shipper {
     @Column(name = "id", updatable = false, nullable = false)
     private long id;
 
+    @Column(name = "uid", updatable = false, nullable = false)
+    private String uid;
+
     @Column(name = "address", nullable = false)
     private String address;
 

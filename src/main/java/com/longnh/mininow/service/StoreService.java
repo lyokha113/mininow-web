@@ -9,14 +9,12 @@ import java.util.List;
 
 public interface StoreService {
 
-    public List<Store> getStores();
+    List<Store> getStores();
 
-    public Store getStoreById(long id);
+    List<Store> getNewStore();
 
-    public List<Product> getProductsOfStore(long id);
+    List<Store> findStore(String name);
 
-    public List<OrderPlaced> getOrdersOfStore(long id);
-
-    public List<Store> getNewStore();
+    Store getStoreById(long id);
 
 }

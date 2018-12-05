@@ -6,7 +6,7 @@ public interface CustomerService {
 
     public Customer getCustomer(long id);
 
-    public Customer changeAvatar(long id, String url);
+    public Customer updateCustomer(Customer customer);
 
-    public Customer changeInfo(Customer customer);
+    public Customer getCustomerByUID(String uid);
 }

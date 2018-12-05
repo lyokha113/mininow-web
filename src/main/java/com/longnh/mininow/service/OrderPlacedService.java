@@ -1,12 +1,15 @@
 package com.longnh.mininow.service;
 
+import com.longnh.mininow.model.OrderItem;
 import com.longnh.mininow.model.OrderPlaced;
 
+import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
 public interface OrderPlacedService {
 
-    public OrderPlaced createOrder(OrderPlaced order);
+    public OrderPlaced createOrder(Map<String, Object> request) throws IOException;
 
     public OrderPlaced getOrder(long id);
 

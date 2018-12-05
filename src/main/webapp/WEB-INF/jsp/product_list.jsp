@@ -54,13 +54,11 @@
     <!-- Navbar -->
     <ul class="navbar-nav ml-auto ml-md-0" style="right: 0px">
         <li class="nav-item dropdown no-arrow">
-            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
-               aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="" id="userDropdown" role="button" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="true">
                 <i class="fas fa-user-circle fa-fw"></i>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                <!--             <a class="dropdown-item" href="#">User Profile</a>
-                            <div class="dropdown-divider"></div> -->
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
             </div>
         </li>
@@ -95,7 +93,6 @@
                 <li class="breadcrumb-item">
                     <a href="#">Quản lý sản phẩm</a>
                 </li>
-                <!-- <li class="breadcrumb-item active">Overview</li> -->
             </ol>
         </div>
 
@@ -179,22 +176,22 @@
                         <div class="d-none" id="pid" name="pid"></div>
                         <div>
                             <label>Tuỳ chọn thay đổi</label> <label id="errorRequire"
-                                                                    style="color: red; font-style: bold"
+                                                                    style="color: red"
                                                                     for="errorRequire"></label>
-                            <div>
-                                <input id="inputRequireName" placeholder="Tên">
-                                <input type="number" id="inputRequirePrice" placeholder="Giá">
-                                <button type="button" class="btn btn-primary" onclick="newItemRequire()">Add</button>
+                            <div class="form-group">
+                                <input id="inputRequireName" class="form-control" placeholder="Tên">
+                                <input type="number" class="form-control" id="inputRequirePrice" placeholder="Giá" style="margin-bottom: 10px; margin-top: 10px">
+                                <button type="button" class="btn btn-primary newrequired">Thêm</button>
                             </div>
                             <ul id="listRequire"></ul>
                         </div>
                         <div>
-                            <label>Tuỳ chọn thêm</label> <label id="errorExtra" style="color: red; font-style: bold"
+                            <label>Tuỳ chọn thêm</label> <label id="errorExtra" style="color: red; margin-top: 20px"
                                                                 for="errorExtra"></label>
-                            <div>
-                                <input id="inputExtraName" placeholder="Tên">
-                                <input type="number" id="inputExtraPrice" placeholder="Giá">
-                                <button type="button" class="btn btn-primary" onclick="newItemExtra()">Add</button>
+                            <div class="form-group">
+                                <input id="inputExtraName" class="form-control" placeholder="Tên">
+                                <input type="number" class="form-control" id="inputExtraPrice" placeholder="Giá" style="margin-bottom: 10px; margin-top: 10px">
+                                <button type="button" class="btn btn-primary newextra">Thêm</button>
                             </div>
                             <ul id="listExtra"></ul>
                         </div>
@@ -220,26 +217,6 @@
 </div>
 <!-- /.content-wrapper -->
 
-<!-- Logout Modal-->
-<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Ready to Leave?</h5>
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-            <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="login.html">Logout</a>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- Bootstrap core JavaScript-->
 <script src="/dashboard/vendor/jquery/jquery.min.js"></script>
 <script src="/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -259,45 +236,6 @@
 <script src="/dashboard/js/demo/datatables-demo.js"></script>
 <script src="/dashboard/js/demo/chart-area-demo.js"></script>
 <script type="text/javascript" src="dashboard/js/custom.js"></script>
-<script type="application/javascript">
-    function newItemExtra() {
-        var extraName = document.getElementById("inputExtraName").value;
-        var extraPrice = document.getElementById("inputExtraPrice").value;
-        if (extraName == "" || extraPrice == "") {
-            document.getElementById("errorExtra").innerHTML = '!';
-        } else {
-            document.getElementById("errorExtra").innerHTML = '';
-            var ul = document.getElementById("listExtra");
-            var li = document.createElement("li");
-            li.appendChild(document.createTextNode("" + extraName + " - " + extraPrice));
-            ul.appendChild(li);
-            document.getElementById("inputExtraName").value = "";
-            document.getElementById("inputExtraPrice").value = "";
-            li.onclick = removeItem;
-        }
-    }
-
-    function newItemRequire() {
-        var requireName = document.getElementById("inputRequireName").value;
-        var requirePrice = document.getElementById("inputRequirePrice").value;
-        if (requireName == "" || requirePrice == "") {
-            document.getElementById("errorRequire").innerHTML = '!';
-        } else {
-            document.getElementById("errorRequire").innerHTML = '';
-            var ul = document.getElementById("listRequire");
-            var li = document.createElement("li");
-            li.appendChild(document.createTextNode(requireName + " - " + requirePrice));
-            ul.appendChild(li);
-            document.getElementById("inputRequireName").value = "";
-            document.getElementById("inputRequirePrice").value = "";
-            li.onclick = removeItem;
-        }
-    }
-
-    function removeItem(e) {
-        e.target.parentElement.removeChild(e.target);
-    }
-</script>
 </body>
 
 </html>

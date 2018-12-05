@@ -1,9 +1,9 @@
 package com.longnh.mininow.controller;
 
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.longnh.mininow.model.Product;
 import com.longnh.mininow.model.ProductExtra;
+import com.longnh.mininow.service.ProductExtraService;
 import com.longnh.mininow.service.ProductService;
 import com.longnh.mininow.util.ConstainManager;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,14 +13,16 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping(value = "/api")
-public class ProductRestController {
+public class ProductWebRestController {
 
     @Autowired
     ProductService productService;
+
+    @Autowired
+    ProductExtraService productExtraService;
 
     @RequestMapping(value = "/product/", method = RequestMethod.GET)
     public ResponseEntity getProducts() {
@@ -37,14 +39,13 @@ public class ProductRestController {
 
     @RequestMapping(value = "/product/{id}/extra", method = RequestMethod.GET)
     public ResponseEntity getProductExtra(@PathVariable("id") long id) {
-        Map<String, String> product = productService.getProductExtra(id);
-        if (product == null) return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Product isn't existed");
-        return ResponseEntity.status(HttpStatus.OK).body(product);
+        List<ProductExtra> extras = productExtraService.getProductExtrasOfProduct(id);
+        return ResponseEntity.status(HttpStatus.OK).body(extras);
     }
 
-    @RequestMapping(value = "/product/extra", method = RequestMethod.POST)
-    public ResponseEntity setProductExtra(@ModelAttribute("product") ProductExtra extra)  {
-        boolean result = productService.updateProductExtra(extra.getId(), extra.getRequired(), extra.getOptional());
+    @RequestMapping(value = "/product/{id}/extra", method = RequestMethod.POST)
+    public ResponseEntity setProductExtra(@PathVariable("id") long id, @RequestBody List<ProductExtra> extras) {
+        List<ProductExtra> result = productExtraService.setProductExtrasToProduct(id, extras);
         return ResponseEntity.status(HttpStatus.OK).body(result);
     }
 

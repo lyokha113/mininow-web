@@ -65,6 +65,13 @@ $(function () {
         });
     }
 
+    function validForm() {
+        return !($('#name').val() == "" || $('#price').val() == ""
+            || $('#imgUrl').val() == "" || $('#description').val() == ""
+            || $('.custom-file-label').text() == "" || selectedImg == undefined);
+
+    }
+
     function clearForm() {
         $('#id').text("");
         $('#name').val("");
@@ -157,6 +164,7 @@ $(function () {
             selectedImg = file;
         } else {
             $(".custom-file-label").text("");
+            selectedImg = undefined;
         }
     });
 
@@ -205,37 +213,51 @@ $(function () {
             url: '/api/product/' + $(this).data('id') + '/extra',
             method: "GET"
         }).then(result => {
-            let optionals = JSON.parse(result.optional);
-            for (let i = 0; i < optionals.length; i++) {
-                newItemExtra(optionals[i].split(" - ")[0], optionals[i].split(" - ")[1]);
+            for (let i = 0; i < result.length; i++) {
+                let extra = result[i];
+                if (extra.required) {
+                    newItemRequire(extra.name, extra.value);
+                } else {
+                    newItemExtra(extra.name, extra.value);
+                }
             }
-            let requireds = JSON.parse(result.required);
-            for (let i = 0; i < requireds.length; i++) {
-                newItemRequire(requireds[i].split(" - ")[0], requireds[i].split(" - ")[1]);
-            }
+
         }).catch(error => {
             console.log(error);
         });
     });
 
     $(".saveExtra").click(function () {
-        let requires = new Set();
-        let optionals = new Set();
+        let extras = [];
         $("#listRequire li").each(function (i) {
-            requires.add($(this).text());
+            let extra = $(this).text();
+            let spliter = extra.lastIndexOf(" - ");
+            let name = extra.substring(0, spliter);
+            let value  = extra.substring(spliter + 3, extra.length - 4);
+            let extraVal = {
+                name: name,
+                value: value,
+                required: true
+            };
+            extras.push(extraVal);
         });
         $("#listExtra li").each(function () {
-            optionals.add($(this).text());
+            let extra = $(this).text();
+            let spliter = extra.lastIndexOf(" - ");
+            let name = extra.substring(0, spliter);
+            let value  = extra.substring(spliter + 3, extra.length - 4);
+            let extraVal = {
+                name: name,
+                value: value,
+                required: false
+            };
+            extras.push(extraVal);
         });
-        let product = {
-            id: parseInt($("#pid").text()),
-            required: JSON.stringify(Array.from(requires)),
-            optional: JSON.stringify(Array.from(optionals))
-        };
         ajax({
-            url: '/api/product/extra',
+            url: '/api/product/' + parseInt($("#pid").text()) + '/extra',
             method: "POST",
-            data: product
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify(extras)
         }).then(result => {
             $("#listRequire").empty();
             $("#listExtra").empty();
@@ -243,14 +265,37 @@ $(function () {
             console.log(error);
         });
 
-    })
+    });
 
+    $("#extra").on('click', '.newrequired', function () {
+        let name = document.getElementById("inputExtraName").value;
+        let value = document.getElementById("inputExtraPrice").value;
+        if (name == "" || value == "") {
+            document.getElementById("errorExtra").innerHTML = '!';
+        } else {
+            document.getElementById("inputExtraName").value = "";
+            document.getElementById("inputExtraPrice").value = "";
+            newItemRequire(name, value);
+        }
+    });
+
+    $("#extra").on('click', '.newextra', function () {
+        let name = document.getElementById("inputExtraName").value;
+        let value = document.getElementById("inputExtraPrice").value;
+        if (name == "" || value == "") {
+            document.getElementById("errorExtra").innerHTML = '!';
+        } else {
+            document.getElementById("inputExtraName").value = "";
+            document.getElementById("inputExtraPrice").value = "";
+            newItemExtra(name, value);
+        }
+    });
 
     function newItemExtra(name, price) {
         document.getElementById("errorExtra").innerHTML = '';
         var ul = document.getElementById("listExtra");
         var li = document.createElement("li");
-        li.appendChild(document.createTextNode("" + name + " - " + price));
+        li.appendChild(document.createTextNode("" + name + " - " + price + " VND"));
         ul.appendChild(li);
         li.onclick = removeItem;
     }
@@ -258,7 +303,7 @@ $(function () {
     function newItemRequire(name, price) {
         var ul = document.getElementById("listRequire");
         var li = document.createElement("li");
-        li.appendChild(document.createTextNode("" + name + " - " + price));
+        li.appendChild(document.createTextNode("" + name + " - " + price + " VND"));
         ul.appendChild(li);
         li.onclick = removeItem;
     }

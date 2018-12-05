@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 @RequestMapping(value = "/orders")
-public class OrdersController {
+public class OrdersPlacedController {
 
     @Autowired
     ProductService productService;

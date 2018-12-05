@@ -2,24 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41e1d8cb-6da4-4e4e-b5a7-e9a3dbfa63ee" name="Default Changelist" comment="Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/CustomerRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrderPlacedRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrdersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/OrderPlaced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Shipper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/OrderPlacedRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/orders_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/configuration/SpringFoxConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductWebRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreWebRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/OrderItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/ProductExtraRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductExtraService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductExtraServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_longnh___mininow_0_0_1_SNAPSHOT_war__exploded_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_longnh___mininow_0_0_1_SNAPSHOT_war__exploded_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mininow_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mininow_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mininow_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mininow_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/controller/CustomerRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/controller/OrderPlacedRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/controller/OrdersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/controller/ProductRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/controller/StoreRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/model/OrderPlaced.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/model/OrderPlaced.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/model/ProductExtra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/model/ProductExtra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/model/Shipper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/model/Shipper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/model/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/model/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/repository/CustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/repository/StoreRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/repository/StoreRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/OrderPlacedService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/OrderPlacedService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/OrderPlacedServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/OrderPlacedServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/StoreService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/StoreService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/StoreServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/longnh/mininow/service/StoreServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/CustomerRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/CustomerMobileRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrderPlacedRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrderPlacedMobileRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrdersPlacedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductMobileRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreMobileRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/OrderPlaced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/OrderPlaced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/ProductExtra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/ProductExtra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Shipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Shipper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/StoreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/StoreRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/StoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/StoreService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/StoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/StoreServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/util/ConstainManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/longnh/mininow/util/ConstainManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/orders_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/orders_list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,6 +75,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mininow$MininowApplication.ic" NAME="MininowApplication Coverage Results" MODIFIED="1542283440031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -185,65 +233,75 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-873095201">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.86" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="54" />
+          <entry key="gradle" value="2" />
+          <entry key="java" value="2597" />
+          <entry key="js" value="619" />
+          <entry key="jsp" value="90" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="2" />
+          <entry key="JAVA" value="2597" />
+          <entry key="JSP" value="90" />
+          <entry key="JavaScript" value="619" />
+          <entry key="PLAIN_TEXT" value="54" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="gradle" value="1" />
+          <entry key="java" value="176" />
+          <entry key="js" value="5" />
+          <entry key="jsp" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="Groovy" value="1" />
+          <entry key="JAVA" value="176" />
+          <entry key="JSP" value="6" />
+          <entry key="JavaScript" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product_list.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrderPlacedMobileRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/orders_list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="130" column="34" lean-forward="true" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrdersController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/OrderPlaced.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductRestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="50" selection-start-line="50" selection-end-line="61" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="912">
+              <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreRestController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+            <state relative-caret-position="338">
+              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -252,10 +310,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/StoreServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductMobileRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            <state relative-caret-position="432">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -264,10 +322,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/StoreService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreMobileRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="240">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -293,6 +351,12 @@
       <find>product_list</find>
       <find>redis</find>
       <find>producta</find>
+      <find>#logoutModal</find>
+      <find>ProductExtra</find>
+      <find>nav-item dropdown no-arrow</find>
+      <find>VND</find>
+      <find>ist</find>
+      <find>STORE_ID</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -501,9 +565,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6167260817775" />
+        <entry key="$PROJECT_DIR$" value="6167906453740" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3799716752" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3566141232" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2077093676" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="4269435087" />
       </map>
@@ -708,46 +772,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/RedisRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/RedisRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/RedisRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/configuration/RedisConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/MininowApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/custom.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/configuration/ResourceConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product_form.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/ProductRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/ProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/product.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/ProductExtra.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/util/ConstainManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/OrderPlacedRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrderPlacedRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/CustomerRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Shipper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/ProductRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/orders_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Store.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductWebRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductExtraService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/ProductExtraRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductExtraServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/products.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/StoreRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Store.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Shipper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/CustomerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/util/ConstainManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/OrderPlaced.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/OrderPlacedRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrderPlacedRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/CustomerRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product_list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/StoreService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/StoreServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/orders_list.jsp" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/configuration/SpringFoxConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreMobileRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreWebRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrderPlacedMobileRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/OrderItemRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/OrderPlaced.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/ProductExtra.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductMobileRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/OrderItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/CustomerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/CustomerMobileRestController.java" />
       </list>
     </option>
   </component>
@@ -800,36 +875,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -837,7 +910,16 @@
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mininow" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -846,7 +928,7 @@
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -855,7 +937,7 @@
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -864,7 +946,7 @@
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -873,7 +955,7 @@
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -882,14 +964,14 @@
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -897,7 +979,7 @@
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -906,14 +988,14 @@
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -921,23 +1003,19 @@
             </path>
             <path>
               <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mininow Web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mininow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mini Now Shop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -950,7 +1028,7 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542060232570" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542550879904" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -964,6 +1042,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Longnhse62770\Desktop\Mini Now Shop\src\main\resources\static\js" />
       <recent name="C:\Users\Longnhse62770\Desktop\Mini Now Shop\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.longnh.mininow.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Longnhse62770\Desktop\Mini Now Shop\src\main\resources\static\js" />
@@ -1061,6 +1142,14 @@
       <workItem from="1542000764175" duration="52240000" />
       <workItem from="1542067391416" duration="1644000" />
       <workItem from="1542173385582" duration="419000" />
+      <workItem from="1542273667323" duration="11317000" />
+      <workItem from="1542295666457" duration="8589000" />
+      <workItem from="1542335272445" duration="2218000" />
+      <workItem from="1542521745598" duration="73000" />
+      <workItem from="1542521982570" duration="23951000" />
+      <workItem from="1542592252539" duration="682000" />
+      <workItem from="1543482735204" duration="95000" />
+      <workItem from="1543482969765" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1542025144272</created>
@@ -1073,7 +1162,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97459000" />
+    <option name="totallyTimeSpent" value="144714000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1085,10 +1174,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32889125" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5520134" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32885906" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32885906" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32885906" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.15506808" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.49832216" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32980332" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="11" sideWeight="0.5016779" side_tool="true" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2987897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1123,7 +1249,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="11" sideWeight="0.5016779" side_tool="true" weight="0.32980332" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1138,293 +1264,366 @@
     <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/RedisRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/RedisRepositoryImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/RedisRestController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/configuration/RedisConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/MininowApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/configuration/ResourceConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/sweetalert.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.1.2.RELEASE/2b7030ac124a46f162cd273a00dbbeff030de202/spring-data-commons-2.1.2.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/ProductRepositoryImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.2.RELEASE/46958e45eee6f9b42790cad7ec61557913d4be37/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.1.2.RELEASE/4755f79d2889bb9683b5ac3fa6a17160286df00f/spring-aop-5.1.2.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="660" selection-start-line="660" selection-end-line="660" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/product.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product_form.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/custom.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/ProductExtra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/products.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/ProductRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/OrderPlacedRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="19" selection-start-line="19" selection-end-line="20" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Shipper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/CustomerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.2.RELEASE/7361b2e28910f2202851c14d4115435b248f668c/spring-web-5.1.2.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="224" selection-start-line="224" selection-end-line="224" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/util/ConstainManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/OrderPlacedRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
-          <caret line="37" column="81" selection-start-line="37" selection-start-column="81" selection-end-line="37" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/CustomerRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrderPlacedRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="44" column="50" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/StoreRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="26" selection-start-line="26" selection-end-line="27" selection-end-column="36" />
+          <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/ProductExtraRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+        <state relative-caret-position="4392">
+          <caret line="183" column="88" selection-start-line="183" selection-start-column="88" selection-end-line="183" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/StoreRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/StoreServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/configuration/SpringFoxConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/StoreService.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductExtraService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="89" column="27" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreWebRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductWebRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/orders_list.jsp">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.2.RELEASE/46958e45eee6f9b42790cad7ec61557913d4be37/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="130" column="34" lean-forward="true" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
+        <state relative-caret-position="105">
+          <caret line="1000" selection-start-line="1000" selection-end-line="1000" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrdersController.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.2.RELEASE/7361b2e28910f2202851c14d4115435b248f668c/spring-web-5.1.2.RELEASE-sources.jar!/org/springframework/web/filter/RequestContextFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.2.RELEASE/7361b2e28910f2202851c14d4115435b248f668c/spring-web-5.1.2.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/6ad708861bf197280cec9241c1ade032def91b91/tomcat-embed-core-9.0.12-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/6ad708861bf197280cec9241c1ade032def91b91/tomcat-embed-core-9.0.12-sources.jar!/org/apache/catalina/core/StandardWrapperValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/6ad708861bf197280cec9241c1ade032def91b91/tomcat-embed-core-9.0.12-sources.jar!/org/apache/catalina/core/StandardContextValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/6ad708861bf197280cec9241c1ade032def91b91/tomcat-embed-core-9.0.12-sources.jar!/org/apache/catalina/authenticator/AuthenticatorBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="490" selection-start-line="490" selection-end-line="490" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/6ad708861bf197280cec9241c1ade032def91b91/tomcat-embed-core-9.0.12-sources.jar!/org/apache/catalina/core/StandardHostValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/6ad708861bf197280cec9241c1ade032def91b91/tomcat-embed-core-9.0.12-sources.jar!/org/apache/catalina/valves/ErrorReportValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/6ad708861bf197280cec9241c1ade032def91b91/tomcat-embed-core-9.0.12-sources.jar!/org/apache/catalina/core/StandardEngineValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/6ad708861bf197280cec9241c1ade032def91b91/tomcat-embed-core-9.0.12-sources.jar!/org/apache/catalina/connector/CoyoteAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="345" selection-start-line="345" selection-end-line="345" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/6ad708861bf197280cec9241c1ade032def91b91/tomcat-embed-core-9.0.12-sources.jar!/org/apache/coyote/http11/Http11Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="413" selection-start-line="413" selection-end-line="413" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/6ad708861bf197280cec9241c1ade032def91b91/tomcat-embed-core-9.0.12-sources.jar!/org/apache/coyote/AbstractProcessorLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.2.RELEASE/46958e45eee6f9b42790cad7ec61557913d4be37/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="902" selection-start-line="902" selection-end-line="902" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.2.RELEASE/46958e45eee6f9b42790cad7ec61557913d4be37/spring-webmvc-5.1.2.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="1047" selection-start-line="1047" selection-end-line="1047" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.2.RELEASE/7361b2e28910f2202851c14d4115435b248f668c/spring-web-5.1.2.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="171" selection-start-line="13" selection-start-column="171" selection-end-line="13" selection-end-column="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/OrderItemRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/ProductExtra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/ProductExtraServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.1.2.RELEASE/48dae2fe24250d570f449ef835ce1339bc55f84f/spring-tx-5.1.2.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="295" selection-start-line="295" selection-end-line="295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.2.RELEASE/4dec566dccc17e1973aada5847fcbf5ad01046e9/spring-core-5.1.2.RELEASE-sources.jar!/org/springframework/cglib/proxy/MethodProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/OrderPlaced.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        <state relative-caret-position="338">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/model/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/repository/CustomerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/util/ConstainManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/CustomerMobileRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/OrderPlacedMobileRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductMobileRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/ProductRestController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreMobileRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="50" selection-start-line="50" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/controller/StoreRestController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longnh/mininow/service/OrderPlacedServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="338">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

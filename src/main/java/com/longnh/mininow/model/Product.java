@@ -2,13 +2,12 @@ package com.longnh.mininow.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
-
 import javax.persistence.*;
-
+import java.util.List;
 
 @Data
-@JsonIgnoreProperties("store")
 @Entity
+@JsonIgnoreProperties("store")
 @Table(name = "product")
 public class Product {
 
@@ -29,12 +28,6 @@ public class Product {
 
     @Column(name = "img_url", nullable = false)
     private String imgUrl;
-
-    @Column(name = "optional")
-    private String optional;
-
-    @Column(name = "required")
-    private String required;
 
     @Column(name = "description")
     private String description;

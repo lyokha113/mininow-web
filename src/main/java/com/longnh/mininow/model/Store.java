@@ -9,7 +9,6 @@ import java.time.LocalDateTime;
 import java.util.Collection;
 
 @Data
-@JsonIgnoreProperties("products")
 @Entity
 @Table(name = "store")
 public class Store {
@@ -19,8 +18,8 @@ public class Store {
     @Column(name = "id", updatable = false, nullable = false)
     private long id;
 
-    @OneToMany(mappedBy = "store", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
-    private Collection<Product> products;
+    @Column(name = "uid", updatable = false, nullable = false)
+    private String uid;
 
     @Column(name = "name", nullable = false)
     private String name;

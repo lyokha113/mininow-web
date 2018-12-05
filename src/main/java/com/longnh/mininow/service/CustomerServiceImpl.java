@@ -23,21 +23,13 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public Customer changeAvatar(long id, String url) {
-        Optional<Customer> customer = customerRepository.findById(id);
-        if (customer.isPresent()) {
-            customer.get().setImgURL(url);
-            return customerRepository.save(customer.get());
-        } else return null;
+    public Customer updateCustomer(Customer customer) {
+        return customerRepository.save(customer);
     }
 
     @Override
-    public Customer changeInfo(Customer customer) {
-        Optional<Customer> result = customerRepository.findById(customer.getId());
-        if (result.isPresent()) {
-            Customer c = result.get();
-            customer.setImgURL(c.getImgURL());
-            return customerRepository.save(customer);
-        } else return null;
+    public Customer getCustomerByUID(String uid) {
+        return customerRepository.findByUidEquals(uid);
     }
+
 }
